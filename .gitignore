@@ -33,5 +33,5 @@ build/
 .vscode/
 
 ### My added ###
-release.propertiesies
+release.properties
 pom.xml.releaseBackup
