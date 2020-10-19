@@ -8,12 +8,12 @@ import java.util.Set;
 @Entity
 @Table(name = "pets")
 public class Pet extends BaseEntity {
-    
+
     @ManyToOne
-    @Column(name = "type_id")
+    @JoinColumn(name = "type_id")
     private PetType petType;
     @ManyToOne
-    @Column(name = "owner_id")
+    @JoinColumn(name = "owner_id")
     private Owner owner;
     @Column(name = "birth_day")
     private LocalDate birthday;
