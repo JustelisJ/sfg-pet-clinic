@@ -8,7 +8,7 @@ import java.util.Set;
 @Entity
 @Table(name = "pets")
 public class Pet extends BaseEntity {
-
+    
     @ManyToOne
     @Column(name = "type_id")
     private PetType petType;
