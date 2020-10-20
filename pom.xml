@@ -44,6 +44,14 @@
                         <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
                     </configuration>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.7.0</version>
+                    <configuration>
+                        <release>14</release>
+                    </configuration>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
