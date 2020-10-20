@@ -93,7 +93,7 @@ public class DataLoader implements CommandLineRunner {
         catVisit.setDescription("Sick kitty");
         visitService.save(catVisit);
 
-        System.out.println("Loaded owners...");
+        System.out.println("Loaded owners.....");
 
         Vet vet1 = new Vet();
         vet1.setFirstName("Kitas");
