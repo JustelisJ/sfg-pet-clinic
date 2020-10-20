@@ -57,6 +57,7 @@
                         <parameters>true</parameters>
                     </configuration>
                 </plugin>
+
                 <plugin>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <configuration>
