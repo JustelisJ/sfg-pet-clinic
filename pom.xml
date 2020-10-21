@@ -44,26 +44,6 @@
                         <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
                     </configuration>
                 </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.7.0</version>
-                    <configuration>
-                        <release>14</release>
-                        <compilerArgs>
-                            <arg>--enable-preview</arg>
-                        </compilerArgs>
-                        <forceJavacCompilerUse>true</forceJavacCompilerUse>
-                        <parameters>true</parameters>
-                    </configuration>
-                </plugin>
-
-                <plugin>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <configuration>
-                        <argLine>--enable-preview</argLine>
-                    </configuration>
-                </plugin>
             </plugins>
         </pluginManagement>
     </build>
